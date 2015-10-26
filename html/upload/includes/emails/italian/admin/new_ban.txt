@@ -1,0 +1,11 @@
+﻿Salve,
+
+Un nuovo utente, con l'indirizzo IP [ip address], è stato bandito per la seguente ragione:
+[ban reasoning]
+
+Ecco il link al tuo pannello di gestione:
+[admin link]
+
+Saluto,
+
+[signature]

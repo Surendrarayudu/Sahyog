@@ -1,0 +1,19 @@
+﻿Zdravo [name],
+
+Novi komentar je objavljen na stranici [page reference], nalazi se na sljedećem adresu:
+[comment url]
+
+Komentar je objavio [poster] i bio kako slijedi:
+
+************************
+
+[comment]
+
+************************
+
+Zbogom,
+
+[signature]
+
+To manage your subscription, click the link below:
+[subscription link]

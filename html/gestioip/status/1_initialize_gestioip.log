@@ -1,0 +1,32 @@
+2015-03-25 13:14:54 Network initialization started
+
+Creating ini_stat.html
+
+### Executing VLAN discovery via SNMP ###
+
++++ Importing VLANs from 10.59.38.5 +++
+
+10.59.38.5: Can't connect or device doesn't support required OIDs
+
+Found a total of 0 new VLANs
+
+
+### Executing network discovery via SNMP ###
+
++++ Importing networks from 10.59.38.5 +++
+
+Can't connect to 10.59.38.5 (3)
+--- No networks found ---
+
+
+### Executing host discovery via SNMP (using community: "public") ###
+
+--- No networks to synchronize found ---
+
+
+### Executing host discovery via DNS ###
+
+--- No networks to synchronize found ---
+
+
+Initialization prozess finished (execution time: 0m and 20s)

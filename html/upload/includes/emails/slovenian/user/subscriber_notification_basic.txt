@@ -1,0 +1,19 @@
+﻿Pozdravljeni [name],
+
+Na stran [page reference] je bil dodan nov komentar, ki se nahaja na naslovu:
+[comment url]
+
+Komentar je dodal [poster], vsebina komentarja pa je:
+
+************************
+
+[comment]
+
+************************
+
+Lep pozdrav,
+
+[signature]
+
+To manage your subscription, click the link below:
+[subscription link]

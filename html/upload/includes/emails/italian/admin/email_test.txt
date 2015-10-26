@@ -1,0 +1,12 @@
+﻿Salve,
+
+Questo è un messaggio di prova generato dalle 'Settings -> Email -> Setup' page.
+
+Se hai ricevuto questa e-mail, le impostazioni e-mail sono corrette.
+
+Ecco il link al tuo pannello di gestione:
+[admin link]
+
+Saluto,
+
+[signature]

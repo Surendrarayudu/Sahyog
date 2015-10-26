@@ -1,0 +1,19 @@
+﻿Hello [name],
+
+You have a reply on the page [page reference], located at the following address:
+[comment url]
+
+The reply was made by [poster] and was as follows:
+
+************************
+
+[comment]
+
+************************
+
+Regards,
+
+[signature]
+
+To manage your subscription, click the link below:
+[subscription link]

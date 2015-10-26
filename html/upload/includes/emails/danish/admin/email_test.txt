@@ -1,0 +1,12 @@
+﻿Hej,
+
+Dette er en test email genereres af 'Settings -> Email -> Setup' side.
+
+Hvis du har modtaget denne e-mail, du har de korrekte e-mail-indstillinger.
+
+Her er et link til din administratorside:
+[admin link]
+
+Hilsen,
+
+[signature]

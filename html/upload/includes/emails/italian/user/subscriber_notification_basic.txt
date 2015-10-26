@@ -1,0 +1,19 @@
+﻿Salve [name],
+
+Un nuovo commento è stato inserito nella pagina [page reference], che si trova al seguente indirizzo:
+[comment url]
+
+Il commento stato fatto da [poster] ed è il seguente:
+
+************************
+
+[comment]
+
+************************
+
+Saluto,
+
+[signature]
+
+To manage your subscription, click the link below:
+[subscription link]

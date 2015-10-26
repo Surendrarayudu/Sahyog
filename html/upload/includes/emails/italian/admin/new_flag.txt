@@ -1,0 +1,19 @@
+﻿Salve,
+
+Un nuovo commento è stato riportato nella pagina [page reference], che si trova al seguente indirizzo:
+[comment url]
+
+Il commento stato fatto da [poster] ed è il seguente:
+
+************************
+
+[comment]
+
+************************
+
+Ecco il link al tuo pannello di gestione:
+[admin link]
+
+Saluto,
+
+[signature]

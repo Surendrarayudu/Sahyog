@@ -1,0 +1,19 @@
+Здравейте [name],
+
+A нов коментар е публикуван на страницата [page reference], намиращ се на следния адрес:
+[comment url]
+
+Коментарът беше направен от [poster] и е както следва:
+
+************************
+
+[comment]
+
+************************
+
+С уважение,
+
+[signature]
+
+To manage your subscription, click the link below:
+[subscription link]

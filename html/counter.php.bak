@@ -1,0 +1,33 @@
+<?php
+/* define your data connection here*/
+define("hostname","10.59.51.201");
+define("username","root");
+define("password","sahyog");
+define("database","counter");
+//syntax used for mysql connection
+mysql_connect(hostname,username,password) or die(mysql_error());
+//syntax used for selecting database
+mysql_select_db(database)or die(mysql_error()); 
+
+$counter='';//initilize counter
+$sql="SELECT counter FROM tb_counter";
+$result=mysql_query($sql);
+$rows=mysql_fetch_assoc($result);
+$counter=$rows['counter'];
+
+// if count is empty
+if(empty($counter)){
+$counter=1;
+$insertCounter="INSERT INTO tb_counter set counter='".$counter."'";
+$result1=mysql_query($insertCounter);
+}
+
+echo "VISITOR NO ". $counter;
+
+// increment visitor count
+$increasecounter=$counter+1;
+$sql2="update tb_counter set counter='".$increasecounter."'";
+$result2=mysql_query($sql2);
+?>
+
+

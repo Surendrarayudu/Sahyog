@@ -1,0 +1,47 @@
+img {
+	border: none;
+}
+
+a:link {
+	color: #0000FF;
+}
+
+a:visited {
+	color: #0000FF;
+}
+
+a:active {
+	color: #0000FF;
+}
+
+a:hover {
+	color: #0000FF;
+}
+
+fieldset {
+	padding: 8px;
+}
+
+.button {
+	background: url("../images/buttons/gradient.gif") repeat-x scroll 0 100% #FFAC47;
+	border-color: #ED6502 #A04300 #A04300 #ED6502;
+	border-style: solid;
+	border-width: 1px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font: bold 12px arial,helvetica,sans-serif;
+	padding: 1px 7px 2px;
+	text-align: center !important;
+	white-space: nowrap;
+	margin-right: 2px;
+}
+
+.positive {
+	color: #006600;
+	font-weight: bold;
+}
+
+.negative {
+	color: #CC0000;
+	font-weight: bold;
+}

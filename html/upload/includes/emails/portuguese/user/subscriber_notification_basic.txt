@@ -1,0 +1,19 @@
+﻿Olá [name],
+
+Um novo comentário foi postado na página [page reference], localizada no seguinte endereço:
+[comment url]
+
+O comentário foi feito por [poster] e é o seguinte:
+
+************************
+
+[comment]
+
+************************
+
+Obrigado,
+
+[signature]
+
+To manage your subscription, click the link below:
+[subscription link]

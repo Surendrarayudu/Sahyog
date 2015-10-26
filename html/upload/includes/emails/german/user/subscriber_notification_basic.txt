@@ -1,0 +1,19 @@
+﻿Hallo [name],
+
+Es wurde ein neuer Kommentar auf der Seite [page reference], mit folgender Adresse:
+[comment url]
+
+Der Kommentar wurde von [poster] mit folgendem Inhalt erstellt:
+
+************************
+
+[comment]
+
+************************
+
+Aufrichtig,
+
+[signature]
+
+To manage your subscription, click the link below:
+[subscription link]

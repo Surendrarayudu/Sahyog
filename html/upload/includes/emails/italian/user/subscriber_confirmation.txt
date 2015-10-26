@@ -1,0 +1,14 @@
+﻿Salve [name],
+
+Hai richiesto un abbonamento alla pagina [page reference], che si trova al seguente indirizzo:
+[page url]
+
+Confermare la sottoscrizione cliccando sul link qui di seguito indicate:
+[confirmation link]
+
+Se non hai richiesto questo abbonamento, non c'è niente che devi fare.
+Non riceverai più e-mail di questo tipo.
+
+Saluto,
+
+[signature]

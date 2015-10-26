@@ -1,0 +1,19 @@
+﻿Здравствуйте [name],
+
+Новый комментарий был оставлен к странице [page reference], расположенной по адресу:
+[comment url]
+
+Комментарий оставил [poster] и содержит следующее:
+
+************************
+
+[comment]
+
+************************
+
+Всего доброго,
+
+[signature]
+
+To manage your subscription, click the link below:
+[subscription link]

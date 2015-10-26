@@ -1,0 +1,22 @@
+﻿Salve,
+
+Un nuovo commento è stato inserito nella pagina [page reference], che si trova al seguente indirizzo:
+[comment url]
+
+Il commento stato fatto da [poster] ed è il seguente:
+
+************************
+
+[comment]
+
+************************
+
+Questo commento richiede l'approvazione per il seguente motivo:
+[approval reasoning]
+
+Ecco il link al tuo pannello di gestione:
+[admin link]
+
+Saluto,
+
+[signature]

@@ -1,0 +1,19 @@
+﻿Hej [name],
+
+Der er blevet indsendt en ny kommentar på siden [page reference]:
+[comment url]
+
+Kommentaren er indsendt af [poster], her er kommentaren:
+
+************************
+
+[comment]
+
+************************
+
+Venligst,
+
+[signature]
+
+To manage your subscription, click the link below:
+[subscription link]

@@ -1,0 +1,228 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@import "variables.less";
+@import "mixins.less";
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+.wrap-embed-contact-form{
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+    font-weight: 400;
+    hr{
+        border: none;
+        border-bottom: 1px solid #f1f1f1;
+        margin: 20px 0 15px 0;
+    }
+    @import "styleSelect.less";
+    * {
+      .box-sizing(border-box);
+    }
+    *:before,
+    *:after {
+      .box-sizing(border-box);
+    }
+    position: fixed;
+    right: -320px;
+    bottom: 0px;
+    background: white;
+    //border: 1px solid #E54040;
+    .box-shadow(0px 0px 10px 0px rgba(0,0,0,0.3));
+    border-radius: 10px;
+    padding: 15px;
+    width: 290px;
+    .transition(all 0.2s ease);
+    &.show-widget{
+        right: 0px;
+    }
+    .form-heading{
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: darken(#E54040, 10%);
+    }
+    .form-sub-heading{
+        color: #999;
+        font-size: 14px;
+    }
+    .form-message{
+        text-align: center;
+        color: #E54040;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    form{
+        position: relative;
+    }
+    .group{
+        .clearfix();
+        margin-left: -15px;
+        margin-right: -15px;
+        > label{
+            padding-left: 15px;
+            padding-bottom: 10px;
+            color: @gray;
+            font-size: 16px;
+            font-weight: 700;
+
+            display: block;
+            &.empty{
+                display:block;
+                height:1px;
+                padding:0;
+                margin:0;
+            }
+        }
+        > div{
+            padding: 0 15px;
+            &.addon-right{
+                position:relative;
+                padding-right: 50px;
+                > i{
+                    position: absolute;
+                    right: 25px;
+                    top: 9px;
+                    z-index: 999;
+                    color: @gray;
+                }
+            }
+            .error-message{
+                font-size: 12px;
+                color: red;
+                padding: 5px;
+            }
+        }
+        .transition(~"all ease .2s");
+        //border-left: 4px solid #fff;
+        padding: 10px 0;
+        &.active{
+            background: #F6F6F6;
+            border-left-color: #1465BA;
+            .box-shadow(inset 0px 0px 3px rgba(0,0,0,.03));
+        }
+    }
+    button[type=submit]{
+        .button-size(10px; 20px; 14px; 20px; 5px);
+        .button-variant(white; #2BC1F2; #2BC1F2);
+        border: none;
+        display: block;
+        width: 100%;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    button[type=submit][disabled]{
+        &, &:hover{
+            background: darken(#2BC1F2, 25%);
+        }
+    }
+    a.btn-show-contact{
+        display: inline-block;
+        text-decoration: none;
+        position: absolute;
+        top: 50%;
+        left: -67px;
+        margin-top: -86px;
+    }
+    .form-control {
+      display: block;
+      width: 100%;
+      height: @input-height-base; // Make inputs at least the height of their button counterpart (base line-height + padding + border)
+      padding: @padding-base-vertical @padding-base-horizontal;
+      font-size: @font-size-base;
+      line-height: @line-height-base;
+      color: @input-color;
+      background-color: @input-bg;
+      background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+      border: 1px solid @input-border;
+      border-radius: 1px;
+      .box-shadow(inset 0 1px 1px rgba(0,0,0,.075));
+      .transition(~"border-color ease-in-out .15s, box-shadow ease-in-out .15s");
+
+      // Customize the `:focus` state to imitate native WebKit styles.
+      .form-control-focus();
+
+      // Placeholder
+      .placeholder();
+
+      // Disabled and read-only inputs
+      //
+      // HTML5 says that controls under a fieldset > legend:first-child won't be
+      // disabled if the fieldset is disabled. Due to implementation difficulty, we
+      // don't honor that edge case; we style them as disabled anyway.
+      &[disabled],
+      &[readonly],
+      fieldset[disabled] & {
+        cursor: not-allowed;
+        background-color: @input-bg-disabled;
+        opacity: 1; // iOS fix for unreadable disabled content
+      }
+
+      // Reset height for `textarea`s
+      textarea& {
+        height: auto;
+      }
+      font-family: 'Roboto', sans-serif;
+    }
+    textarea.form-control{
+        height: auto;
+    }
+
+    .hide {
+      display: none !important;
+    }
+    .show {
+      display: block !important;
+    }
+
+    .one-line{
+        text-overflow:ellipsis;
+        white-space:nowrap;
+        overflow:hidden;
+    }
+
+    // Arrow
+    .arrow-up{
+        border-left-color:transparent;
+        border-right-color:transparent;
+        border-top-style:none;
+    }
+    .arrow-down{
+        border-left-color:transparent;
+        border-right-color:transparent;
+        border-bottom-style:none;
+    }
+    .arrow-right{
+        border-top-color:transparent;
+        border-bottom-color:transparent;
+        border-right-style:none;
+    }
+    .arrow-left{
+        border-top-color:transparent;
+        border-bottom-color:transparent;
+        border-left-style:none;
+    }
+    .arrow{
+        width:0;
+        height:0;
+        display:inline-block;
+        vertical-align:middle;
+        border-color:white;
+        border-width:5px;
+        border-style:solid;
+        &.up{
+            .arrow-up;
+        }
+        &.down{
+            .arrow-down;
+        }
+        &.right{
+            .arrow-right;
+        }
+        &.left{
+            .arrow-left;
+        }
+    }
+}

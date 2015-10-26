@@ -1,0 +1,390 @@
+2015-07-24 08:55:42 - Info - CheckPHPVersion
+2015-07-24 08:55:42 - Info - php.ini file(s): '/etc/php.ini, /etc/php.d/apc.ini, /etc/php.d/curl.ini, /etc/php.d/dom.ini, /etc/php.d/fileinfo.ini, /etc/php.d/gd.ini, /etc/php.d/imagick.ini, /etc/php.d/imap.ini, /etc/php.d/intl.ini, /etc/php.d/json.ini, /etc/php.d/ldap.ini, /etc/php.d/mbstring.ini, /etc/php.d/mcrypt.ini, /etc/php.d/memcache.ini, /etc/php.d/mysql.ini, /etc/php.d/mysqli.ini, /etc/php.d/pdo.ini, /etc/php.d/pdo_mysql.ini, /etc/php.d/pdo_pgsql.ini, /etc/php.d/pdo_sqlite.ini, /etc/php.d/pgsql.ini, /etc/php.d/phar.ini, /etc/php.d/posix.ini, /etc/php.d/snmp.ini, /etc/php.d/soap.ini, /etc/php.d/sqlite3.ini, /etc/php.d/sysvmsg.ini, /etc/php.d/sysvsem.ini, /etc/php.d/sysvshm.ini, /etc/php.d/wddx.ini, /etc/php.d/xmlreader.ini, /etc/php.d/xmlrpc.ini, /etc/php.d/xmlwriter.ini, /etc/php.d/xsl.ini, /etc/php.d/zip.ini'
+2015-07-24 08:55:42 - Info - Temporary directory for files upload (/tmp) is writable.
+2015-07-24 08:55:42 - Info - upload_max_filesize: 2M
+2015-07-24 08:55:42 - Info - post_max_size: 8M
+2015-07-24 08:55:42 - Info - max_file_uploads: 20
+2015-07-24 08:55:42 - Info - memory_limit is 134217728, ok.
+2015-07-24 08:55:42 - Info - session.save_path is: '/var/lib/php/session'.
+2015-07-24 08:55:42 - Ok - The current PHP Version (5.3.3) is greater than the minimum version required to run iTop, which is (5.2.0)
+2015-07-24 08:55:42 - Ok - Required PHP extension(s): dom, hash, iconv, json, mysqli, pcre, session, simplexml, soap.
+2015-07-24 08:55:42 - Ok - Optional PHP extension(s): ldap, mcrypt.
+2015-07-24 08:55:42 - Ok - APC detected (version 3.1.9). The APC cache will be used to speed-up iTop.
+2015-07-24 08:55:42 - Ok - Loaded php.ini files: /etc/php.ini, /etc/php.d/apc.ini, /etc/php.d/curl.ini, /etc/php.d/dom.ini, /etc/php.d/fileinfo.ini, /etc/php.d/gd.ini, /etc/php.d/imagick.ini, /etc/php.d/imap.ini, /etc/php.d/intl.ini, /etc/php.d/json.ini, /etc/php.d/ldap.ini, /etc/php.d/mbstring.ini, /etc/php.d/mcrypt.ini, /etc/php.d/memcache.ini, /etc/php.d/mysql.ini, /etc/php.d/mysqli.ini, /etc/php.d/pdo.ini, /etc/php.d/pdo_mysql.ini, /etc/php.d/pdo_pgsql.ini, /etc/php.d/pdo_sqlite.ini, /etc/php.d/pgsql.ini, /etc/php.d/phar.ini, /etc/php.d/posix.ini, /etc/php.d/snmp.ini, /etc/php.d/soap.ini, /etc/php.d/sqlite3.ini, /etc/php.d/sysvmsg.ini, /etc/php.d/sysvsem.ini, /etc/php.d/sysvshm.ini, /etc/php.d/wddx.ini, /etc/php.d/xmlreader.ini, /etc/php.d/xmlrpc.ini, /etc/php.d/xmlwriter.ini, /etc/php.d/xsl.ini, /etc/php.d/zip.ini
+2015-07-24 08:55:42 - Ok - The value for session.save_path (/var/lib/php/session) is writable for the web server.
+2015-07-24 08:55:49 - Info - CheckBackupPrerequisites
+2015-07-24 08:55:49 - Info - PHP functions disabled: 
+2015-07-24 08:55:49 - Info - mysqldump -V said: mysqldump  Ver 10.13 Distrib 5.1.73, for redhat-linux-gnu (x86_64)
+2015-07-24 08:55:50 - Info - operation 'async_action', peak memory usage. 3760208
+2015-07-24 08:55:56 - Info - operation 'async_action', peak memory usage. 3295400
+2015-07-24 08:56:00 - Info - operation 'async_action', peak memory usage. 3294904
+2015-07-24 08:56:01 - Info - operation 'async_action', peak memory usage. 3295288
+2015-07-24 08:56:03 - Info - operation 'async_action', peak memory usage. 3295064
+2015-07-24 08:56:04 - Info - operation 'async_action', peak memory usage. 3295240
+2015-07-24 08:56:04 - Info - operation 'async_action', peak memory usage. 3295240
+2015-07-24 08:56:07 - Info - operation 'async_action', peak memory usage. 3295440
+2015-07-24 08:56:08 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 08:56:09 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 08:56:23 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 08:56:25 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 08:56:25 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 08:56:57 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 08:56:58 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 08:56:59 - Info - operation 'async_action', peak memory usage. 3295440
+2015-07-24 08:57:02 - Info - operation 'async_action', peak memory usage. 3295440
+2015-07-24 08:57:03 - Info - operation 'async_action', peak memory usage. 3294904
+2015-07-24 08:57:05 - Info - operation 'async_action', peak memory usage. 3294760
+2015-07-24 08:57:08 - Info - operation 'async_action', peak memory usage. 3295440
+2015-07-24 08:57:10 - Info - operation 'async_action', peak memory usage. 3295440
+2015-07-24 08:57:11 - Info - operation 'async_action', peak memory usage. 3295440
+2015-07-24 08:57:12 - Info - operation 'async_action', peak memory usage. 3295232
+2015-07-24 08:57:14 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 08:57:23 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 08:57:24 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 08:57:25 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 08:57:26 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 08:57:37 - Info - operation 'async_action', peak memory usage. 3295496
+2015-07-24 08:57:38 - Info - operation 'async_action', peak memory usage. 3295496
+2015-07-24 08:57:39 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 08:57:40 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 08:57:43 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 08:57:44 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 08:57:46 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 08:57:51 - Info - operation 'async_action', peak memory usage. 3295400
+2015-07-24 08:57:56 - Info - operation 'async_action', peak memory usage. 3295064
+2015-07-24 08:57:57 - Info - operation 'async_action', peak memory usage. 3294760
+2015-07-24 08:57:58 - Info - operation 'async_action', peak memory usage. 3294760
+2015-07-24 08:57:58 - Info - operation 'async_action', peak memory usage. 3294760
+2015-07-24 08:57:59 - Info - operation 'async_action', peak memory usage. 3295440
+2015-07-24 08:58:00 - Info - operation 'async_action', peak memory usage. 3295440
+2015-07-24 08:58:07 - Info - operation 'async_action', peak memory usage. 3294760
+2015-07-24 08:58:08 - Info - operation 'async_action', peak memory usage. 3294760
+2015-07-24 08:58:13 - Info - operation 'async_action', peak memory usage. 3295440
+2015-07-24 08:58:16 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 08:58:18 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 08:58:19 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 08:58:20 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 08:58:34 - Info - operation 'async_action', peak memory usage. 3295272
+2015-07-24 08:58:35 - Info - operation 'async_action', peak memory usage. 3295048
+2015-07-24 08:58:36 - Info - operation 'async_action', peak memory usage. 3295048
+2015-07-24 08:58:37 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 08:58:38 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 08:58:41 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 08:58:51 - Info - operation 'async_action', peak memory usage. 3295400
+2015-07-24 08:58:58 - Info - operation 'async_action', peak memory usage. 3294760
+2015-07-24 08:59:19 - Info - operation 'async_action', peak memory usage. 3294904
+2015-07-24 08:59:27 - Info - operation 'async_action', peak memory usage. 3294904
+2015-07-24 09:00:39 - Info - operation 'async_action', peak memory usage. 3295064
+2015-07-24 09:00:41 - Info - operation 'async_action', peak memory usage. 3295440
+2015-07-24 09:00:43 - Info - operation 'async_action', peak memory usage. 3295456
+2015-07-24 09:00:46 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 09:00:46 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 09:01:27 - Info - CheckPHPVersion
+2015-07-24 09:01:27 - Info - php.ini file(s): '/etc/php.ini, /etc/php.d/apc.ini, /etc/php.d/curl.ini, /etc/php.d/dom.ini, /etc/php.d/fileinfo.ini, /etc/php.d/gd.ini, /etc/php.d/imagick.ini, /etc/php.d/imap.ini, /etc/php.d/intl.ini, /etc/php.d/json.ini, /etc/php.d/ldap.ini, /etc/php.d/mbstring.ini, /etc/php.d/mcrypt.ini, /etc/php.d/memcache.ini, /etc/php.d/mysql.ini, /etc/php.d/mysqli.ini, /etc/php.d/pdo.ini, /etc/php.d/pdo_mysql.ini, /etc/php.d/pdo_pgsql.ini, /etc/php.d/pdo_sqlite.ini, /etc/php.d/pgsql.ini, /etc/php.d/phar.ini, /etc/php.d/posix.ini, /etc/php.d/snmp.ini, /etc/php.d/soap.ini, /etc/php.d/sqlite3.ini, /etc/php.d/sysvmsg.ini, /etc/php.d/sysvsem.ini, /etc/php.d/sysvshm.ini, /etc/php.d/wddx.ini, /etc/php.d/xmlreader.ini, /etc/php.d/xmlrpc.ini, /etc/php.d/xmlwriter.ini, /etc/php.d/xsl.ini, /etc/php.d/zip.ini'
+2015-07-24 09:01:27 - Info - Temporary directory for files upload (/tmp) is writable.
+2015-07-24 09:01:27 - Info - upload_max_filesize: 2M
+2015-07-24 09:01:27 - Info - post_max_size: 8M
+2015-07-24 09:01:27 - Info - max_file_uploads: 20
+2015-07-24 09:01:27 - Info - memory_limit is 134217728, ok.
+2015-07-24 09:01:27 - Info - session.save_path is: '/var/lib/php/session'.
+2015-07-24 09:01:27 - Ok - The current PHP Version (5.3.3) is greater than the minimum version required to run iTop, which is (5.2.0)
+2015-07-24 09:01:27 - Ok - Required PHP extension(s): dom, hash, iconv, json, mysqli, pcre, session, simplexml, soap.
+2015-07-24 09:01:27 - Ok - Optional PHP extension(s): ldap, mcrypt.
+2015-07-24 09:01:27 - Ok - APC detected (version 3.1.9). The APC cache will be used to speed-up iTop.
+2015-07-24 09:01:27 - Ok - Loaded php.ini files: /etc/php.ini, /etc/php.d/apc.ini, /etc/php.d/curl.ini, /etc/php.d/dom.ini, /etc/php.d/fileinfo.ini, /etc/php.d/gd.ini, /etc/php.d/imagick.ini, /etc/php.d/imap.ini, /etc/php.d/intl.ini, /etc/php.d/json.ini, /etc/php.d/ldap.ini, /etc/php.d/mbstring.ini, /etc/php.d/mcrypt.ini, /etc/php.d/memcache.ini, /etc/php.d/mysql.ini, /etc/php.d/mysqli.ini, /etc/php.d/pdo.ini, /etc/php.d/pdo_mysql.ini, /etc/php.d/pdo_pgsql.ini, /etc/php.d/pdo_sqlite.ini, /etc/php.d/pgsql.ini, /etc/php.d/phar.ini, /etc/php.d/posix.ini, /etc/php.d/snmp.ini, /etc/php.d/soap.ini, /etc/php.d/sqlite3.ini, /etc/php.d/sysvmsg.ini, /etc/php.d/sysvsem.ini, /etc/php.d/sysvshm.ini, /etc/php.d/wddx.ini, /etc/php.d/xmlreader.ini, /etc/php.d/xmlrpc.ini, /etc/php.d/xmlwriter.ini, /etc/php.d/xsl.ini, /etc/php.d/zip.ini
+2015-07-24 09:01:27 - Ok - The value for session.save_path (/var/lib/php/session) is writable for the web server.
+2015-07-24 09:01:41 - Info - operation 'async_action', peak memory usage. 3294760
+2015-07-24 09:02:39 - Info - CheckBackupPrerequisites
+2015-07-24 09:02:39 - Info - PHP functions disabled: 
+2015-07-24 09:02:39 - Info - mysqldump -V said: mysqldump  Ver 10.13 Distrib 5.1.73, for redhat-linux-gnu (x86_64)
+2015-07-24 09:02:39 - Info - operation 'async_action', peak memory usage. 3295424
+2015-07-24 09:02:39 - Info - operation 'async_action', peak memory usage. 3295232
+2015-07-24 09:02:43 - Info - operation 'async_action', peak memory usage. 3295232
+2015-07-24 09:02:49 - Info - operation 'async_action', peak memory usage. 3294760
+2015-07-24 09:02:51 - Info - operation 'async_action', peak memory usage. 3295464
+2015-07-24 09:02:53 - Info - operation 'async_action', peak memory usage. 3295456
+2015-07-24 09:02:56 - Info - operation 'async_action', peak memory usage. 3295456
+2015-07-24 09:03:11 - Info - operation 'async_action', peak memory usage. 3295464
+2015-07-24 09:03:13 - Info - operation 'async_action', peak memory usage. 3295464
+2015-07-24 09:03:16 - Info - operation 'async_action', peak memory usage. 3295456
+2015-07-24 09:03:17 - Info - operation 'async_action', peak memory usage. 3295456
+2015-07-24 09:03:19 - Info - operation 'async_action', peak memory usage. 3295456
+2015-07-24 09:05:51 - Info - CheckPHPVersion
+2015-07-24 09:05:51 - Info - php.ini file(s): '/etc/php.ini, /etc/php.d/apc.ini, /etc/php.d/curl.ini, /etc/php.d/dom.ini, /etc/php.d/fileinfo.ini, /etc/php.d/gd.ini, /etc/php.d/imagick.ini, /etc/php.d/imap.ini, /etc/php.d/intl.ini, /etc/php.d/json.ini, /etc/php.d/ldap.ini, /etc/php.d/mbstring.ini, /etc/php.d/mcrypt.ini, /etc/php.d/memcache.ini, /etc/php.d/mysql.ini, /etc/php.d/mysqli.ini, /etc/php.d/pdo.ini, /etc/php.d/pdo_mysql.ini, /etc/php.d/pdo_pgsql.ini, /etc/php.d/pdo_sqlite.ini, /etc/php.d/pgsql.ini, /etc/php.d/phar.ini, /etc/php.d/posix.ini, /etc/php.d/snmp.ini, /etc/php.d/soap.ini, /etc/php.d/sqlite3.ini, /etc/php.d/sysvmsg.ini, /etc/php.d/sysvsem.ini, /etc/php.d/sysvshm.ini, /etc/php.d/wddx.ini, /etc/php.d/xmlreader.ini, /etc/php.d/xmlrpc.ini, /etc/php.d/xmlwriter.ini, /etc/php.d/xsl.ini, /etc/php.d/zip.ini'
+2015-07-24 09:05:51 - Info - Temporary directory for files upload (/tmp) is writable.
+2015-07-24 09:05:51 - Info - upload_max_filesize: 2M
+2015-07-24 09:05:51 - Info - post_max_size: 8M
+2015-07-24 09:05:51 - Info - max_file_uploads: 20
+2015-07-24 09:05:51 - Info - memory_limit is 134217728, ok.
+2015-07-24 09:05:51 - Info - session.save_path is: '/var/lib/php/session'.
+2015-07-24 09:05:51 - Ok - The current PHP Version (5.3.3) is greater than the minimum version required to run iTop, which is (5.2.0)
+2015-07-24 09:05:51 - Ok - Required PHP extension(s): dom, hash, iconv, json, mysqli, pcre, session, simplexml, soap.
+2015-07-24 09:05:51 - Ok - Optional PHP extension(s): ldap, mcrypt.
+2015-07-24 09:05:51 - Ok - APC detected (version 3.1.9). The APC cache will be used to speed-up iTop.
+2015-07-24 09:05:51 - Ok - Loaded php.ini files: /etc/php.ini, /etc/php.d/apc.ini, /etc/php.d/curl.ini, /etc/php.d/dom.ini, /etc/php.d/fileinfo.ini, /etc/php.d/gd.ini, /etc/php.d/imagick.ini, /etc/php.d/imap.ini, /etc/php.d/intl.ini, /etc/php.d/json.ini, /etc/php.d/ldap.ini, /etc/php.d/mbstring.ini, /etc/php.d/mcrypt.ini, /etc/php.d/memcache.ini, /etc/php.d/mysql.ini, /etc/php.d/mysqli.ini, /etc/php.d/pdo.ini, /etc/php.d/pdo_mysql.ini, /etc/php.d/pdo_pgsql.ini, /etc/php.d/pdo_sqlite.ini, /etc/php.d/pgsql.ini, /etc/php.d/phar.ini, /etc/php.d/posix.ini, /etc/php.d/snmp.ini, /etc/php.d/soap.ini, /etc/php.d/sqlite3.ini, /etc/php.d/sysvmsg.ini, /etc/php.d/sysvsem.ini, /etc/php.d/sysvshm.ini, /etc/php.d/wddx.ini, /etc/php.d/xmlreader.ini, /etc/php.d/xmlrpc.ini, /etc/php.d/xmlwriter.ini, /etc/php.d/xsl.ini, /etc/php.d/zip.ini
+2015-07-24 09:05:51 - Ok - The value for session.save_path (/var/lib/php/session) is writable for the web server.
+2015-07-24 09:05:53 - Info - CheckBackupPrerequisites
+2015-07-24 09:05:53 - Info - PHP functions disabled: 
+2015-07-24 09:05:53 - Info - mysqldump -V said: mysqldump  Ver 10.13 Distrib 5.1.73, for redhat-linux-gnu (x86_64)
+2015-07-24 09:05:53 - Info - operation 'async_action', peak memory usage. 3295456
+2015-07-24 09:06:05 - Info - operation 'async_action', peak memory usage. 3295400
+2015-07-24 09:06:09 - Info - operation 'async_action', peak memory usage. 3294904
+2015-07-24 09:06:10 - Info - operation 'async_action', peak memory usage. 3294904
+2015-07-24 09:06:11 - Info - operation 'async_action', peak memory usage. 3295288
+2015-07-24 09:06:12 - Info - operation 'async_action', peak memory usage. 3295064
+2015-07-24 09:06:14 - Info - operation 'async_action', peak memory usage. 3294760
+2015-07-24 09:06:15 - Info - operation 'async_action', peak memory usage. 3295440
+2015-07-24 09:06:16 - Info - operation 'async_action', peak memory usage. 3295440
+2015-07-24 09:06:18 - Info - operation 'async_action', peak memory usage. 3295488
+2015-07-24 09:06:21 - Info - operation 'async_action', peak memory usage. 3299104
+2015-07-24 09:07:15 - Info - operation 'async_action', peak memory usage. 3294760
+2015-07-24 09:07:36 - Info - ======= Installation starts =======
+Parameters:
+<?xml version="1.0" encoding="UTF-8"?>
+<installation>
+  <mode>install</mode>
+  <preinstall>
+    <copies type="array"/>
+  </preinstall>
+  <source_dir>datamodels/2.x/</source_dir>
+  <datamodel_version>2.1.0</datamodel_version>
+  <previous_configuration_file></previous_configuration_file>
+  <extensions_dir>extensions</extensions_dir>
+  <target_env>production</target_env>
+  <workspace_dir></workspace_dir>
+  <database>
+    <server>10.59.51.201</server>
+    <user>root</user>
+    <pwd>**removed**</pwd>
+    <name>auitop</name>
+    <prefix></prefix>
+  </database>
+  <url>http://10.59.51.201/itop/</url>
+  <admin_account>
+    <user>admin</user>
+    <pwd>**removed**</pwd>
+    <language>EN US</language>
+  </admin_account>
+  <language>EN US</language>
+  <selected_modules type="array">
+    <item>authent-external</item>
+    <item>authent-ldap</item>
+    <item>authent-local</item>
+    <item>itop-backup</item>
+    <item>itop-config</item>
+    <item>itop-profiles-itil</item>
+    <item>itop-sla-computation</item>
+    <item>itop-tickets</item>
+    <item>itop-welcome-itil</item>
+    <item>itop-config-mgmt</item>
+    <item>itop-attachments</item>
+    <item>itop-endusers-devices</item>
+    <item>itop-service-mgmt</item>
+    <item>itop-request-mgmt-itil</item>
+    <item>itop-incident-mgmt-itil</item>
+  </selected_modules>
+  <sample_data></sample_data>
+  <old_addon></old_addon>
+  <options type="array"/>
+</installation>
+
+
+2015-07-24 09:07:36 - Info - operation 'async_action', peak memory usage. 3301360
+2015-07-24 09:07:36 - Info - operation 'async_action', peak memory usage. 3286704
+2015-07-24 09:07:36 - Info - Compiling data model.
+2015-07-24 09:07:38 - Info - Data model successfully compiled to '/var/www/html/itop/env-production'.
+2015-07-24 09:07:38 - Info - operation 'async_action', peak memory usage. 9966648
+2015-07-24 09:07:38 - Info - Update Database Schema for environment 'production'.
+2015-07-24 09:07:38 - Info - MetaModel::Startup (ModelOnly = 1)
+2015-07-24 09:07:39 - Info - Calling Module Handler: AttachmentInstaller::BeforeDatabaseCreation(oConfig, , 2.1.0)
+2015-07-24 09:07:39 - Info - Calling Module Handler: ConfigMgmtInstaller::BeforeDatabaseCreation(oConfig, , 2.1.0)
+2015-07-24 09:07:39 - Info - Calling Module Handler: EndUserMgmtInstaller::BeforeDatabaseCreation(oConfig, , 2.1.0)
+2015-07-24 09:07:39 - Info - Calling Module Handler: TicketsInstaller::BeforeDatabaseCreation(oConfig, , 2.1.0)
+2015-07-24 09:07:39 - Info - Calling Module Handler: ServiceMgmtInstaller::BeforeDatabaseCreation(oConfig, , 2.1.0)
+2015-07-24 09:07:39 - Info - Creating the structure in ''.
+2015-07-24 09:07:40 - Info - 0.014s - query: CREATE TABLE `priv_async_task` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `status` ENUM('error','idle','planned','running') NULL, `created` DATETIME NULL, `started` DATETIME NULL, `planned` DATETIME NULL, `event_id` INT(11) NULL, INDEX (`event_id`), `remaining_retries` INT(11) NULL, `last_error_code` INT(11) NULL, `last_error` VARCHAR(255) NULL, `last_attempt` DATETIME NULL, `realclass` VARCHAR(255) NOT NULL, INDEX (`realclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_async_send_email` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `version` INT(11) NOT NULL, `to` TEXT NULL, `subject` TEXT NOT NULL, `message` LONGTEXT NOT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_db_properties` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `description` VARCHAR(255) NULL, `value` VARCHAR(255) NULL, `change_date` DATETIME NULL, `change_comment` VARCHAR(255) NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_change` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `date` DATETIME NULL, `userinfo` VARCHAR(255) NULL, `origin` ENUM('csv-import.php','csv-interactive','custom-extension','email-processing','interactive','synchro-data-source','webservice-rest','webservice-soap') NULL, INDEX `origin` (`origin`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `priv_changeop` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `changeid` INT(11) NOT NULL, INDEX (`changeid`), `objclass` VARCHAR(255) NOT NULL, `objkey` INT(11) NOT NULL, `optype` VARCHAR(255) NOT NULL, INDEX (`optype`), INDEX `objclass_objkey` (`objclass`, `objkey`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_changeop_create` (`id` INT(11) NOT NULL  PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_changeop_delete` (`id` INT(11) NOT NULL  PRIMARY KEY, `fclass` VARCHAR(255) NOT NULL, `fname` VARCHAR(255) NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_changeop_setatt` (`id` INT(11) NOT NULL  PRIMARY KEY, `attcode` VARCHAR(255) NOT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `priv_changeop_setatt_scalar` (`id` INT(11) NOT NULL  PRIMARY KEY, `oldvalue` VARCHAR(255) NULL, `newvalue` VARCHAR(255) NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_changeop_setatt_data` (`id` INT(11) NOT NULL  PRIMARY KEY, `prevdata_data` LONGBLOB NOT NULL, `prevdata_mimetype` VARCHAR(255) NOT NULL, `prevdata_filename` VARCHAR(255) NOT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_changeop_setatt_pwd` (`id` INT(11) NOT NULL  PRIMARY KEY, `prev_pwd_hash` TINYBLOB NULL, `prev_pwd_salt` TINYBLOB NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_changeop_setatt_encrypted` (`id` INT(11) NOT NULL  PRIMARY KEY, `data` TINYBLOB NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_changeop_setatt_text` (`id` INT(11) NOT NULL  PRIMARY KEY, `prevdata` TEXT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_changeop_setatt_longtext` (`id` INT(11) NOT NULL  PRIMARY KEY, `prevdata` LONGTEXT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_changeop_setatt_log` (`id` INT(11) NOT NULL  PRIMARY KEY, `lastentry` INT(11) NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_changeop_plugin` (`id` INT(11) NOT NULL  PRIMARY KEY, `description` VARCHAR(255) NOT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_changeop_links` (`id` INT(11) NOT NULL  PRIMARY KEY, `item_class` VARCHAR(255) NOT NULL, `item_id` INT(11) NOT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_changeop_links_addremove` (`id` INT(11) NOT NULL  PRIMARY KEY, `type` ENUM('added','removed') NOT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_changeop_links_tune` (`id` INT(11) NOT NULL  PRIMARY KEY, `link_id` INT(11) NOT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.022s - query: CREATE TABLE `priv_user` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `contactid` INT(11) NULL, INDEX (`contactid`), `login` VARCHAR(255) NOT NULL, `language` VARCHAR(255) NOT NULL, INDEX (`language`), `finalclass` VARCHAR(255) NOT NULL, INDEX (`finalclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_internaluser` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `reset_pwd_token` VARCHAR(255) NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.009s - query: CREATE TABLE `priv_module_install` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `version` VARCHAR(255) NULL, `installed` DATETIME NULL, `comment` TEXT NULL, `parent_id` INT(11) NULL, INDEX (`parent_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `priv_app_dashboards` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `user_id` INT(11) NOT NULL, INDEX (`user_id`), `menu_code` VARCHAR(255) NOT NULL, `contents` TEXT NOT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `priv_shortcut` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `user_id` INT(11) NULL, INDEX (`user_id`), `name` VARCHAR(255) NOT NULL, `context` TEXT NOT NULL, `realclass` VARCHAR(255) NOT NULL, INDEX (`realclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_shortcut_oql` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `oql` TEXT NOT NULL, `auto_reload` ENUM('custom','none') NOT NULL, `auto_reload_sec` INT(11) NOT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_app_preferences` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `userid` INT(11) NOT NULL, INDEX (`userid`), `preferences` LONGTEXT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `priv_auditrule` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `description` VARCHAR(255) NULL, `query` TEXT NOT NULL, `valid_flag` ENUM('false','true') NOT NULL, `category_id` INT(11) NOT NULL, INDEX (`category_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `priv_auditcategory` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `description` VARCHAR(255) NULL, `definition_set` TEXT NOT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `priv_query` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `description` TEXT NOT NULL, `fields` TEXT NULL, `realclass` VARCHAR(255) NOT NULL, INDEX (`realclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_query_oql` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `oql` TEXT NOT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `priv_event` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `message` TEXT NOT NULL, `date` DATETIME NULL, `userinfo` VARCHAR(255) NULL, `realclass` VARCHAR(255) NOT NULL, INDEX (`realclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `priv_event_notification` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `trigger_id` INT(11) NOT NULL, INDEX (`trigger_id`), `action_id` INT(11) NOT NULL, INDEX (`action_id`), `object_id` INT(11) NOT NULL, INDEX `object_id` (`object_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_event_email` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `to` TEXT NULL, `cc` TEXT NULL, `bcc` TEXT NULL, `from` TEXT NULL, `subject` TEXT NULL, `body` LONGTEXT NULL, `attachments` LONGTEXT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `priv_event_issue` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `issue` VARCHAR(255) NOT NULL, `impact` VARCHAR(255) NULL, `page` VARCHAR(255) NOT NULL, `arguments_post` LONGTEXT NULL, `arguments_get` LONGTEXT NULL, `callstack` LONGTEXT NULL, `data` LONGTEXT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_event_webservice` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `verb` VARCHAR(255) NOT NULL, `result` TINYINT(1) NULL, `log_info` TEXT NULL, `log_warning` TEXT NULL, `log_error` TEXT NULL, `data` TEXT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_event_loginusage` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `user_id` INT(11) NOT NULL, INDEX (`user_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `priv_action` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `description` VARCHAR(255) NULL, `status` ENUM('test','enabled','disabled') NOT NULL, `realclass` VARCHAR(255) NOT NULL, INDEX (`realclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_action_notification` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.010s - query: CREATE TABLE `priv_action_email` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `test_recipient` VARCHAR(255) NULL, `from` VARCHAR(255) NOT NULL, `reply_to` VARCHAR(255) NULL, `to` TEXT NULL, `cc` TEXT NULL, `bcc` TEXT NULL, `subject` VARCHAR(255) NOT NULL, `body` TEXT NOT NULL, `importance` ENUM('high','low','normal') NOT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `priv_trigger` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `description` VARCHAR(255) NULL, `realclass` VARCHAR(255) NOT NULL, INDEX (`realclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_trigger_onobject` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `target_class` VARCHAR(255) NOT NULL, INDEX (`target_class`), `filter` TEXT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_trigger_onportalupdate` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.004s - query: CREATE TABLE `priv_trigger_onstatechange` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `state` VARCHAR(255) NOT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_trigger_onstateenter` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.001s - query: CREATE TABLE `priv_trigger_onstateleave` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_trigger_onobjcreate` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `priv_link_action_trigger` (`link_id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `action_id` INT(11) NOT NULL, INDEX (`action_id`), `trigger_id` INT(11) NOT NULL, INDEX (`trigger_id`), `order` INT(11) NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_trigger_threshold` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `stop_watch_code` VARCHAR(255) NOT NULL, `threshold_index` VARCHAR(255) NOT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `priv_sync_datasource` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `description` VARCHAR(255) NULL, `status` ENUM('implementation','obsolete','production') NOT NULL, `user_id` INT(11) NULL, INDEX (`user_id`), `notify_contact_id` INT(11) NULL, INDEX (`notify_contact_id`), `scope_class` VARCHAR(255) NOT NULL, INDEX (`scope_class`), `database_table_name` VARCHAR(255) NULL, `scope_restriction` VARCHAR(255) NULL, `full_load_periodicity` INT(11) UNSIGNED NULL, `reconciliation_policy` ENUM('use_attributes','use_primary_key') NOT NULL, `action_on_zero` ENUM('create','error') NOT NULL, `action_on_one` ENUM('error','update') NOT NULL, `action_on_multiple` ENUM('create','error','take_first') NOT NULL, `delete_policy` ENUM('delete','ignore','update','update_then_delete') NOT NULL, `delete_policy_update` VARCHAR(255) NULL, `delete_policy_retention` INT(11) UNSIGNED NULL, `user_delete_policy` ENUM('administrators','everybody','nobody') NULL, `url_icon` VARCHAR(255) NULL, `url_application` VARCHAR(255) NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `priv_sync_att` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `sync_source_id` INT(11) NOT NULL, INDEX (`sync_source_id`), `attcode` VARCHAR(255) NOT NULL, `update` TINYINT(1) NOT NULL, `reconcile` TINYINT(1) NOT NULL, `update_policy` ENUM('master_locked','master_unlocked','write_if_empty') NOT NULL, `finalclass` VARCHAR(255) NOT NULL, INDEX (`finalclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_sync_att_extkey` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `reconciliation_attcode` VARCHAR(255) NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `priv_sync_att_linkset` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `row_separator` VARCHAR(255) NULL, `attribute_separator` VARCHAR(255) NULL, `value_separator` VARCHAR(255) NULL, `attribute_qualifier` VARCHAR(255) NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `priv_sync_log` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `sync_source_id` INT(11) NOT NULL, INDEX (`sync_source_id`), `start_date` DATETIME NULL, `end_date` DATETIME NULL, `status` ENUM('completed','error','running') NOT NULL, `status_curr_job` INT(11) NULL, `status_curr_pos` INT(11) NULL, `stats_nb_replica_seen` INT(11) NOT NULL, `stats_nb_replica_total` INT(11) NOT NULL, `stats_nb_obj_deleted` INT(11) NOT NULL, `stats_deleted_errors` INT(11) NOT NULL, `stats_nb_obj_obsoleted` INT(11) NOT NULL, `stats_nb_obj_obsoleted_errors` INT(11) NOT NULL, `stats_nb_obj_created` INT(11) NOT NULL, `stats_nb_obj_created_errors` INT(11) NOT NULL, `stats_nb_obj_created_warnings` INT(11) NOT NULL, `stats_nb_obj_updated` INT(11) NOT NULL, `stats_nb_obj_updated_errors` INT(11) NOT NULL, `stats_nb_obj_updated_warnings` INT(11) NOT NULL, `stats_nb_obj_unchanged_warnings` INT(11) NOT NULL, `stats_nb_replica_reconciled_errors` INT(11) NOT NULL, `stats_nb_replica_disappeared_no_action` INT(11) NOT NULL, `stats_nb_obj_new_updated` INT(11) NOT NULL, `stats_nb_obj_new_updated_warnings` INT(11) NOT NULL, `stats_nb_obj_new_unchanged` INT(11) NOT NULL, `stats_nb_obj_new_unchanged_warnings` INT(11) NOT NULL, `last_error` TEXT NULL, `traces` LONGTEXT NULL, `memory_usage_peak` INT(11) NOT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.009s - query: CREATE TABLE `priv_sync_replica` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `sync_source_id` INT(11) NOT NULL, INDEX (`sync_source_id`), `dest_id` INT(11) NULL, `dest_class` VARCHAR(255) NULL, INDEX (`dest_class`), `status_last_seen` DATETIME NULL, `status` ENUM('modified','new','obsolete','orphan','synchronized') NOT NULL, `status_dest_creator` TINYINT(1) NULL, `status_last_error` VARCHAR(255) NULL, `status_last_warning` VARCHAR(255) NULL, `info_creation_date` DATETIME NULL, `info_last_modified` DATETIME NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `priv_backgroundtask` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `class_name` VARCHAR(255) NOT NULL, `first_run_date` DATETIME NULL, `latest_run_date` DATETIME NULL, `next_run_date` DATETIME NULL, `total_exec_count` INT(11) NULL, `latest_run_duration` DECIMAL(8,3) NULL, `min_run_duration` DECIMAL(8,3) NULL, `max_run_duration` DECIMAL(8,3) NULL, `average_run_duration` DECIMAL(8,3) NULL, `running` TINYINT(1) NOT NULL, `status` ENUM('active','paused') NOT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_user_local` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `password_hash` TINYBLOB NOT NULL, `password_salt` TINYBLOB NOT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `attachment` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `expire` DATETIME NULL, `temp_id` VARCHAR(255) NULL, `item_class` VARCHAR(255) NOT NULL, `item_id` VARCHAR(255) NULL, `item_org_id` INT(11) NULL, `contents_data` LONGBLOB NOT NULL, `contents_mimetype` VARCHAR(255) NOT NULL, `contents_filename` VARCHAR(255) NOT NULL, INDEX `temp_id` (`temp_id`), INDEX `item_class_item_id` (`item_class`, `item_id`), INDEX `item_org_id` (`item_org_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `organization` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `code` VARCHAR(255) NULL, `status` ENUM('active','inactive') NULL, `parent_id` INT(11) NULL, INDEX (`parent_id`), `parent_id_left` INT(11) NULL, INDEX (`parent_id_left`), `parent_id_right` INT(11) NULL, INDEX (`parent_id_right`), `deliverymodel_id` INT(11) NULL, INDEX (`deliverymodel_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `location` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `status` ENUM('active','inactive') NULL, `org_id` INT(11) NOT NULL, INDEX (`org_id`), `address` TEXT NULL, `postal_code` VARCHAR(255) NULL, `city` VARCHAR(255) NULL, `country` VARCHAR(255) NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `contact` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `status` ENUM('active','inactive') NOT NULL, `org_id` INT(11) NOT NULL, INDEX (`org_id`), `email` VARCHAR(255) NULL, `phone` VARCHAR(255) NULL, `notify` ENUM('no','yes') NULL, `function` VARCHAR(255) NULL, `finalclass` VARCHAR(255) NOT NULL, INDEX (`finalclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.006s - query: CREATE TABLE `person` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `first_name` VARCHAR(255) NOT NULL, `employee_number` VARCHAR(255) NULL, `mobile_phone` VARCHAR(255) NULL, `location_id` INT(11) NULL, INDEX (`location_id`), `manager_id` INT(11) NULL, INDEX (`manager_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `team` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `document` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `org_id` INT(11) NOT NULL, INDEX (`org_id`), `documenttype_id` INT(11) NULL, INDEX (`documenttype_id`), `version` VARCHAR(255) NULL, `description` TEXT NULL, `status` ENUM('draft','obsolete','published') NULL, `finalclass` VARCHAR(255) NOT NULL, INDEX (`finalclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `documentfile` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `file_data` LONGBLOB NOT NULL, `file_mimetype` VARCHAR(255) NOT NULL, `file_filename` VARCHAR(255) NOT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `documentnote` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `text` LONGTEXT NOT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `documentweb` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `url` VARCHAR(255) NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `functionalci` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `description` TEXT NULL, `org_id` INT(11) NOT NULL, INDEX (`org_id`), `business_criticity` ENUM('high','low','medium') NULL, `move2production` DATE NULL, `finalclass` VARCHAR(255) NOT NULL, INDEX (`finalclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `physicaldevice` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `serialnumber` VARCHAR(255) NULL, `location_id` INT(11) NULL, INDEX (`location_id`), `status` ENUM('implementation','obsolete','production','stock') NULL, `brand_id` INT(11) NULL, INDEX (`brand_id`), `model_id` INT(11) NULL, INDEX (`model_id`), `asset_number` VARCHAR(255) NULL, `purchase_date` DATE NULL, `end_of_warranty` DATE NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `connectableci` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `datacenterdevice` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `nb_u` INT(11) NULL, `managementip` VARCHAR(255) NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `networkdevice` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `networkdevicetype_id` INT(11) NOT NULL, INDEX (`networkdevicetype_id`), `iosversion_id` INT(11) NULL, INDEX (`iosversion_id`), `ram` VARCHAR(255) NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `server` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `osfamily_id` INT(11) NULL, INDEX (`osfamily_id`), `osversion_id` INT(11) NULL, INDEX (`osversion_id`), `oslicence_id` INT(11) NULL, INDEX (`oslicence_id`), `cpu` VARCHAR(255) NULL, `ram` VARCHAR(255) NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `applicationsolution` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `status` ENUM('active','inactive') NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `businessprocess` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `status` ENUM('active','inactive') NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `softwareinstance` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `functionalci_id` INT(11) NOT NULL, INDEX (`functionalci_id`), `software_id` INT(11) NULL, INDEX (`software_id`), `softwarelicence_id` INT(11) NULL, INDEX (`softwarelicence_id`), `path` VARCHAR(255) NULL, `status` ENUM('active','inactive') NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `middleware` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `dbserver` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `webserver` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `pcsoftware` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `othersoftware` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `middlewareinstance` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `middleware_id` INT(11) NOT NULL, INDEX (`middleware_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `databaseschema` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `dbserver_id` INT(11) NOT NULL, INDEX (`dbserver_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `webapplication` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `webserver_id` INT(11) NOT NULL, INDEX (`webserver_id`), `url` VARCHAR(255) NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `software` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `vendor` VARCHAR(255) NOT NULL, `version` VARCHAR(255) NOT NULL, `type` ENUM('DBServer','Middleware','OtherSoftware','PCSoftware','WebServer') NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `patch` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `description` TEXT NULL, `finalclass` VARCHAR(255) NOT NULL, INDEX (`finalclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `ospatch` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `osversion_id` INT(11) NOT NULL, INDEX (`osversion_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `softwarepatch` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `software_id` INT(11) NOT NULL, INDEX (`software_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `licence` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `org_id` INT(11) NOT NULL, INDEX (`org_id`), `usage_limit` VARCHAR(255) NULL, `description` TEXT NULL, `start_date` DATE NULL, `end_date` DATE NULL, `licence_key` VARCHAR(255) NULL, `perpetual` ENUM('no','yes') NOT NULL, `finalclass` VARCHAR(255) NOT NULL, INDEX (`finalclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `oslicence` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `osversion_id` INT(11) NOT NULL, INDEX (`osversion_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `softwarelicence` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `software_id` INT(11) NOT NULL, INDEX (`software_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `lnkdocumenttolicence` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `licence_id` INT(11) NOT NULL, INDEX (`licence_id`), `document_id` INT(11) NOT NULL, INDEX (`document_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `typology` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `finalclass` VARCHAR(255) NOT NULL, INDEX (`finalclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `osversion` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `osfamily_id` INT(11) NOT NULL, INDEX (`osfamily_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `osfamily` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `documenttype` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `contacttype` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `brand` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `model` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `brand_id` INT(11) NOT NULL, INDEX (`brand_id`), `type` ENUM('DiskArray','Enclosure','IPPhone','MobilePhone','NAS','NetworkDevice','PC','PDU','Peripheral','Phone','PowerSource','Printer','Rack','SANSwitch','Server','StorageSystem','Tablet','TapeLibrary') NOT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `networkdevicetype` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `iosversion` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `brand_id` INT(11) NOT NULL, INDEX (`brand_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `lnkdocumenttopatch` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `patch_id` INT(11) NOT NULL, INDEX (`patch_id`), `document_id` INT(11) NOT NULL, INDEX (`document_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `lnksoftwareinstancetosoftwarepatch` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `softwarepatch_id` INT(11) NOT NULL, INDEX (`softwarepatch_id`), `softwareinstance_id` INT(11) NOT NULL, INDEX (`softwareinstance_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `lnkfunctionalcitoospatch` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `ospatch_id` INT(11) NOT NULL, INDEX (`ospatch_id`), `functionalci_id` INT(11) NOT NULL, INDEX (`functionalci_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `lnkdocumenttosoftware` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `software_id` INT(11) NOT NULL, INDEX (`software_id`), `document_id` INT(11) NOT NULL, INDEX (`document_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `lnkcontacttofunctionalci` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `functionalci_id` INT(11) NOT NULL, INDEX (`functionalci_id`), `contact_id` INT(11) NOT NULL, INDEX (`contact_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `lnkdocumenttofunctionalci` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `functionalci_id` INT(11) NOT NULL, INDEX (`functionalci_id`), `document_id` INT(11) NOT NULL, INDEX (`document_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `subnet` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `description` TEXT NULL, `subnet_name` VARCHAR(255) NULL, `org_id` INT(11) NOT NULL, INDEX (`org_id`), `ip` VARCHAR(255) NOT NULL, `ip_mask` VARCHAR(255) NOT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `vlan` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `vlan_tag` VARCHAR(255) NOT NULL, `description` TEXT NULL, `org_id` INT(11) NOT NULL, INDEX (`org_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `lnksubnettovlan` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `subnet_id` INT(11) NOT NULL, INDEX (`subnet_id`), `vlan_id` INT(11) NOT NULL, INDEX (`vlan_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.004s - query: CREATE TABLE `networkinterface` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `finalclass` VARCHAR(255) NOT NULL, INDEX (`finalclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `ipinterface` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `ipaddress` VARCHAR(255) NULL, `macaddress` VARCHAR(255) NULL, `comment` TEXT NULL, `ipgateway` VARCHAR(255) NULL, `ipmask` VARCHAR(255) NULL, `speed` DECIMAL(12,2) NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.026s - query: CREATE TABLE `physicalinterface` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `connectableci_id` INT(11) NOT NULL, INDEX (`connectableci_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `lnkphysicalinterfacetovlan` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `physicalinterface_id` INT(11) NOT NULL, INDEX (`physicalinterface_id`), `vlan_id` INT(11) NOT NULL, INDEX (`vlan_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `lnkconnectablecitonetworkdevice` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `networkdevice_id` INT(11) NOT NULL, INDEX (`networkdevice_id`), `connectableci_id` INT(11) NOT NULL, INDEX (`connectableci_id`), `network_port` VARCHAR(255) NULL, `device_port` VARCHAR(255) NULL, `type` ENUM('downlink','uplink') NOT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `lnkapplicationsolutiontofunctionalci` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `applicationsolution_id` INT(11) NOT NULL, INDEX (`applicationsolution_id`), `functionalci_id` INT(11) NOT NULL, INDEX (`functionalci_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `lnkapplicationsolutiontobusinessprocess` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `businessprocess_id` INT(11) NOT NULL, INDEX (`businessprocess_id`), `applicationsolution_id` INT(11) NOT NULL, INDEX (`applicationsolution_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `lnkpersontoteam` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `team_id` INT(11) NOT NULL, INDEX (`team_id`), `person_id` INT(11) NOT NULL, INDEX (`person_id`), `role_id` INT(11) NULL, INDEX (`role_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `group` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `status` ENUM('implementation','obsolete','production') NOT NULL, `org_id` INT(11) NOT NULL, INDEX (`org_id`), `description` TEXT NULL, `type` VARCHAR(255) NULL, `parent_id` INT(11) NULL, INDEX (`parent_id`), `parent_id_left` INT(11) NULL, INDEX (`parent_id_left`), `parent_id_right` INT(11) NULL, INDEX (`parent_id_right`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `lnkgrouptoci` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `group_id` INT(11) NOT NULL, INDEX (`group_id`), `ci_id` INT(11) NOT NULL, INDEX (`ci_id`), `reason` VARCHAR(255) NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `pc` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `osfamily_id` INT(11) NULL, INDEX (`osfamily_id`), `osversion_id` INT(11) NULL, INDEX (`osversion_id`), `cpu` VARCHAR(255) NULL, `ram` VARCHAR(255) NULL, `type` ENUM('desktop','laptop') NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `printer` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `telephonyci` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `phonenumber` VARCHAR(255) NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `phone` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `mobilephone` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `imei` VARCHAR(255) NULL, `hw_pin` VARCHAR(255) NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `ipphone` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `tablet` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `peripheral` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `ticket` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `ref` VARCHAR(255) NULL, `org_id` INT(11) NOT NULL, INDEX (`org_id`), `caller_id` INT(11) NULL, INDEX (`caller_id`), `team_id` INT(11) NULL, INDEX (`team_id`), `agent_id` INT(11) NULL, INDEX (`agent_id`), `title` VARCHAR(255) NOT NULL, `description` TEXT NOT NULL, `start_date` DATETIME NULL, `end_date` DATETIME NULL, `last_update` DATETIME NULL, `close_date` DATETIME NULL, `private_log` LONGTEXT NULL, `private_log_index` BLOB NULL, `finalclass` VARCHAR(255) NOT NULL, INDEX (`finalclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `lnkcontacttoticket` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `ticket_id` INT(11) NOT NULL, INDEX (`ticket_id`), `contact_id` INT(11) NOT NULL, INDEX (`contact_id`), `role` VARCHAR(255) NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `lnkfunctionalcitoticket` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `ticket_id` INT(11) NOT NULL, INDEX (`ticket_id`), `functionalci_id` INT(11) NOT NULL, INDEX (`functionalci_id`), `impact` VARCHAR(255) NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `workorder` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `status` ENUM('closed','open') NOT NULL, `description` TEXT NOT NULL, `ticket_id` INT(11) NOT NULL, INDEX (`ticket_id`), `team_id` INT(11) NOT NULL, INDEX (`team_id`), `owner_id` INT(11) NULL, INDEX (`owner_id`), `start_date` DATETIME NULL, `end_date` DATETIME NULL, `log` LONGTEXT NULL, `log_index` BLOB NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.004s - query: CREATE TABLE `ticket_incident` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `status` ENUM('assigned','closed','escalated_tto','escalated_ttr','new','pending','resolved') NOT NULL, `impact` ENUM('1','2','3') NOT NULL, `priority` ENUM('1','2','3','4') NOT NULL, `urgency` ENUM('1','2','3','4') NOT NULL, `origin` ENUM('mail','monitoring','phone','portal') NULL, `service_id` INT(11) NULL, INDEX (`service_id`), `servicesubcategory_id` INT(11) NULL, INDEX (`servicesubcategory_id`), `escalation_flag` ENUM('no','yes') NULL, `escalation_reason` VARCHAR(255) NULL, `assignment_date` DATETIME NULL, `resolution_date` DATETIME NULL, `last_pending_date` DATETIME NULL, `cumulatedpending_timespent` INT(11) UNSIGNED NULL, `cumulatedpending_started` DATETIME NULL, `cumulatedpending_laststart` DATETIME NULL, `cumulatedpending_stopped` DATETIME NULL, `tto_timespent` INT(11) UNSIGNED NULL, `tto_started` DATETIME NULL, `tto_laststart` DATETIME NULL, `tto_stopped` DATETIME NULL, `tto_75_deadline` DATETIME NULL, `tto_75_passed` TINYINT(1) UNSIGNED NULL, `tto_75_triggered` TINYINT(1) NULL, `tto_75_overrun` INT(11) UNSIGNED NULL, `tto_100_deadline` DATETIME NULL, `tto_100_passed` TINYINT(1) UNSIGNED NULL, `tto_100_triggered` TINYINT(1) NULL, `tto_100_overrun` INT(11) UNSIGNED NULL, `ttr_timespent` INT(11) UNSIGNED NULL, `ttr_started` DATETIME NULL, `ttr_laststart` DATETIME NULL, `ttr_stopped` DATETIME NULL, `ttr_75_deadline` DATETIME NULL, `ttr_75_passed` TINYINT(1) UNSIGNED NULL, `ttr_75_triggered` TINYINT(1) NULL, `ttr_75_overrun` INT(11) UNSIGNED NULL, `ttr_100_deadline` DATETIME NULL, `ttr_100_passed` TINYINT(1) UNSIGNED NULL, `ttr_100_triggered` TINYINT(1) NULL, `ttr_100_overrun` INT(11) UNSIGNED NULL, `time_spent` INT(11) UNSIGNED NULL, `resolution_code` ENUM('assistance','bug fixed','hardware repair','other','software patch','system update','training') NULL, `solution` TEXT NULL, `pending_reason` TEXT NULL, `parent_incident_id` INT(11) NULL, INDEX (`parent_incident_id`), `public_log` LONGTEXT NULL, `public_log_index` BLOB NULL, `user_satisfaction` ENUM('1','2','3','4') NULL, `user_commment` TEXT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.026s - query: CREATE TABLE `ticket_request` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `status` ENUM('approved','assigned','closed','escalated_tto','escalated_ttr','new','pending','rejected','resolved','waiting_for_approval') NOT NULL, `request_type` ENUM('service_request') NULL, `impact` ENUM('1','2','3') NOT NULL, `priority` ENUM('1','2','3','4') NOT NULL, `urgency` ENUM('1','2','3','4') NOT NULL, `origin` ENUM('mail','phone','portal') NULL, `approver_id` INT(11) NULL, INDEX (`approver_id`), `service_id` INT(11) NULL, INDEX (`service_id`), `servicesubcategory_id` INT(11) NULL, INDEX (`servicesubcategory_id`), `escalation_flag` ENUM('no','yes') NULL, `escalation_reason` VARCHAR(255) NULL, `assignment_date` DATETIME NULL, `resolution_date` DATETIME NULL, `last_pending_date` DATETIME NULL, `cumulatedpending_timespent` INT(11) UNSIGNED NULL, `cumulatedpending_started` DATETIME NULL, `cumulatedpending_laststart` DATETIME NULL, `cumulatedpending_stopped` DATETIME NULL, `tto_timespent` INT(11) UNSIGNED NULL, `tto_started` DATETIME NULL, `tto_laststart` DATETIME NULL, `tto_stopped` DATETIME NULL, `tto_75_deadline` DATETIME NULL, `tto_75_passed` TINYINT(1) UNSIGNED NULL, `tto_75_triggered` TINYINT(1) NULL, `tto_75_overrun` INT(11) UNSIGNED NULL, `tto_100_deadline` DATETIME NULL, `tto_100_passed` TINYINT(1) UNSIGNED NULL, `tto_100_triggered` TINYINT(1) NULL, `tto_100_overrun` INT(11) UNSIGNED NULL, `ttr_timespent` INT(11) UNSIGNED NULL, `ttr_started` DATETIME NULL, `ttr_laststart` DATETIME NULL, `ttr_stopped` DATETIME NULL, `ttr_75_deadline` DATETIME NULL, `ttr_75_passed` TINYINT(1) UNSIGNED NULL, `ttr_75_triggered` TINYINT(1) NULL, `ttr_75_overrun` INT(11) UNSIGNED NULL, `ttr_100_deadline` DATETIME NULL, `ttr_100_passed` TINYINT(1) UNSIGNED NULL, `ttr_100_triggered` TINYINT(1) NULL, `ttr_100_overrun` INT(11) UNSIGNED NULL, `time_spent` INT(11) UNSIGNED NULL, `resolution_code` ENUM('assistance','bug fixed','hardware repair','other','software patch','system update','training') NULL, `solution` TEXT NULL, `pending_reason` TEXT NULL, `parent_request_id` INT(11) NULL, INDEX (`parent_request_id`), `parent_incident_id` INT(11) NULL, INDEX (`parent_incident_id`), `public_log` LONGTEXT NULL, `public_log_index` BLOB NULL, `user_satisfaction` ENUM('1','2','3','4') NULL, `user_commment` TEXT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `contracttype` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.004s - query: CREATE TABLE `contract` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `org_id` INT(11) NOT NULL, INDEX (`org_id`), `description` TEXT NULL, `start_date` DATE NULL, `end_date` DATE NULL, `cost` VARCHAR(255) NULL, `cost_currency` ENUM('dollars','euros') NULL, `contracttype_id` INT(11) NULL, INDEX (`contracttype_id`), `billing_frequency` VARCHAR(255) NULL, `cost_unit` VARCHAR(255) NULL, `provider_id` INT(11) NOT NULL, INDEX (`provider_id`), `status` ENUM('implementation','obsolete','production') NULL, `finalclass` VARCHAR(255) NOT NULL, INDEX (`finalclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `customercontract` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `providercontract` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `sla` VARCHAR(255) NULL, `coverage` VARCHAR(255) NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `lnkcontacttocontract` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `contract_id` INT(11) NOT NULL, INDEX (`contract_id`), `contact_id` INT(11) NOT NULL, INDEX (`contact_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `lnkcontracttodocument` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `contract_id` INT(11) NOT NULL, INDEX (`contract_id`), `document_id` INT(11) NOT NULL, INDEX (`document_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `lnkfunctionalcitoprovidercontract` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `providercontract_id` INT(11) NOT NULL, INDEX (`providercontract_id`), `functionalci_id` INT(11) NOT NULL, INDEX (`functionalci_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `servicefamily` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `service` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `org_id` INT(11) NOT NULL, INDEX (`org_id`), `servicefamily_id` INT(11) NULL, INDEX (`servicefamily_id`), `description` TEXT NULL, `status` ENUM('implementation','obsolete','production') NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `lnkdocumenttoservice` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `service_id` INT(11) NOT NULL, INDEX (`service_id`), `document_id` INT(11) NOT NULL, INDEX (`document_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `lnkcontacttoservice` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `service_id` INT(11) NOT NULL, INDEX (`service_id`), `contact_id` INT(11) NOT NULL, INDEX (`contact_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `servicesubcategory` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `description` TEXT NULL, `service_id` INT(11) NOT NULL, INDEX (`service_id`), `request_type` ENUM('incident','service_request') NOT NULL, `status` ENUM('implementation','obsolete','production') NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `sla` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `description` TEXT NULL, `org_id` INT(11) NOT NULL, INDEX (`org_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `slt` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `priority` ENUM('1','2','3','4') NULL, `request_type` ENUM('incident','service_request') NULL, `metric` ENUM('tto','ttr') NULL, `value` INT(11) NULL, `unit` ENUM('hours','minutes') NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.004s - query: CREATE TABLE `lnkslatoslt` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `sla_id` INT(11) NOT NULL, INDEX (`sla_id`), `slt_id` INT(11) NOT NULL, INDEX (`slt_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `lnkcustomercontracttoservice` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `customercontract_id` INT(11) NOT NULL, INDEX (`customercontract_id`), `service_id` INT(11) NOT NULL, INDEX (`service_id`), `sla_id` INT(11) NULL, INDEX (`sla_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.004s - query: CREATE TABLE `lnkprovidercontracttoservice` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `service_id` INT(11) NOT NULL, INDEX (`service_id`), `providercontract_id` INT(11) NOT NULL, INDEX (`providercontract_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `lnkfunctionalcitoservice` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `service_id` INT(11) NOT NULL, INDEX (`service_id`), `functionalci_id` INT(11) NOT NULL, INDEX (`functionalci_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `deliverymodel` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `org_id` INT(11) NOT NULL, INDEX (`org_id`), `description` TEXT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.004s - query: CREATE TABLE `lnkdeliverymodeltocontact` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `deliverymodel_id` INT(11) NOT NULL, INDEX (`deliverymodel_id`), `contact_id` INT(11) NOT NULL, INDEX (`contact_id`), `role_id` INT(11) NULL, INDEX (`role_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.002s - query: CREATE TABLE `priv_urp_profiles` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `description` VARCHAR(255) NOT NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `priv_urp_userprofile` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `userid` INT(11) NOT NULL, INDEX (`userid`), `profileid` INT(11) NOT NULL, INDEX (`profileid`), `description` VARCHAR(255) NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:40 - Info - 0.003s - query: CREATE TABLE `priv_urp_userorg` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `userid` INT(11) NOT NULL, INDEX (`userid`), `allowed_org_id` INT(11) NOT NULL, INDEX (`allowed_org_id`), `reason` VARCHAR(255) NULL) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2015-07-24 09:07:41 - Ok - Database structure successfully created.
+2015-07-24 09:07:41 - Info - 'priv_change.origin' already initialized, nothing to do.
+2015-07-24 09:07:41 - Info - 'priv_async_task.status' already initialized, nothing to do.
+2015-07-24 09:07:41 - Info - Database Schema Successfully Updated for environment 'production'.
+2015-07-24 09:07:41 - Info - operation 'async_action', peak memory usage. 50118776
+2015-07-24 09:07:41 - Info - After Database Creation
+2015-07-24 09:07:41 - Info - MetaModel::Startup (ModelOnly = 1)
+2015-07-24 09:07:42 - Info - Calling Module Handler: AttachmentInstaller::AfterDatabaseCreation(oConfig, , 2.1.0)
+2015-07-24 09:07:42 - Info - Initializing attachment/item_org_id - null to zero
+2015-07-24 09:07:42 - Info - Initializing attachment/item_org_id - zero to the container
+2015-07-24 09:07:42 - Info - Initializing attachment/item_org_id - 0 records have been adjusted
+2015-07-24 09:07:42 - Info - Calling Module Handler: ConfigMgmtInstaller::AfterDatabaseCreation(oConfig, , 2.1.0)
+2015-07-24 09:07:42 - Info - Calling Module Handler: EndUserMgmtInstaller::AfterDatabaseCreation(oConfig, , 2.1.0)
+2015-07-24 09:07:42 - Info - Calling Module Handler: TicketsInstaller::AfterDatabaseCreation(oConfig, , 2.1.0)
+2015-07-24 09:07:42 - Info - Calling Module Handler: ServiceMgmtInstaller::AfterDatabaseCreation(oConfig, , 2.1.0)
+2015-07-24 09:07:42 - Info - URP_Profiles::GetPredefinedObjects() returned 12 elements.
+2015-07-24 09:07:42 - Info - CreateAdminAccount
+2015-07-24 09:07:42 - Info - Administrator account 'admin' created.
+2015-07-24 09:07:42 - Info - Calling Module Handler: AttachmentInstaller::AfterDatabaseSetup(oConfig, , 2.1.0)
+2015-07-24 09:07:42 - Info - Calling Module Handler: ConfigMgmtInstaller::AfterDatabaseSetup(oConfig, , 2.1.0)
+2015-07-24 09:07:42 - Info - Calling Module Handler: EndUserMgmtInstaller::AfterDatabaseSetup(oConfig, , 2.1.0)
+2015-07-24 09:07:42 - Info - Calling Module Handler: TicketsInstaller::AfterDatabaseSetup(oConfig, , 2.1.0)
+2015-07-24 09:07:42 - Info - Calling Module Handler: ServiceMgmtInstaller::AfterDatabaseSetup(oConfig, , 2.1.0)
+2015-07-24 09:07:42 - Info - operation 'async_action', peak memory usage. 40044920
+2015-07-24 09:07:42 - Info - MetaModel::Startup (ModelOnly = )
+2015-07-24 09:07:43 - Info - starting data load session
+2015-07-24 09:07:43 - Info - ending data load session
+2015-07-24 09:07:43 - Info - operation 'async_action', peak memory usage. 36561400
+2015-07-24 09:07:43 - Info - MetaModel::Startup (ModelOnly = 1)
+2015-07-24 09:07:44 - Info - operation 'async_action', peak memory usage. 37274248

@@ -1,0 +1,25 @@
+/*CSS File For Sign-Up webpage*/
+#body-color{
+background-color:white;
+}
+#Sign-Up{
+background-image:url('sign-up.png');
+background-size:500px 500px;
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center;
+margin-top:150px;
+margin-bottom:150px;
+margin-right:150px;
+margin-left:450px;
+padding:9px 35px; 
+}
+#button{
+border-radius:20px;
+width:150px;
+height:40px;
+background:pink;
+font-weight:bold;
+font-size:15	px;
+}
+
